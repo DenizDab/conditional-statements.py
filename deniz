@@ -1,0 +1,40 @@
+age=int(input("enter age:"))
+if age>=18:
+    print ("you can drive")
+
+
+else:
+  print("you are not allowed to drive")
+
+
+
+marks=int(input("enter marks"))
+#above 80-a
+#between 70-79-b
+#between 60-69-c
+#between 50-59-d
+#below 50-fail
+
+if marks>=80:
+  print("grade a")
+  print("excellent,good job")
+
+elif marks>=70 and marks<=79:
+  print("grade b")
+  print("well done,try harder next time")
+
+elif marks>=60 and marks<=69:
+   print("grade c")
+   print("just above average,try harder next time")
+
+elif marks>=50 and marks<59:
+   print("grade d")  
+   print("try harder next time")
+
+elif marks <50 and marks >0:
+   print("fail")
+   print("Not quite well done!!")
+
+else:
+
+print("Marks not valid❌")
